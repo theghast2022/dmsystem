@@ -897,3 +897,4 @@ client.on('message', message => {
             return;
         }
     });
+client.login(process.env.BOT_TOKEN);
