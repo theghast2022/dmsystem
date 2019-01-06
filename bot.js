@@ -16,12 +16,12 @@ client.on('ready', () => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Code By : ZorexHost`);
+      console.log(`System- Code By : The_Ghast`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Code By : ZorexHost `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help | System Bot`,"http://twitch.tv/S-F")
+client.user.setGame(`DM THE BEST`,"http://twitch.tv/idk")
 client.user.setStatus("dnd")
 }); 
 
@@ -35,13 +35,13 @@ client.on('message', message => {
 }
 });
 
-const prefix = '$'
+const prefix = '!'
 
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "388357326614167563") return;
+  if (message.author.id !== "422768520795914241") return;
 
   
   if (message.content.startsWith(prefix + 'wt')) {
@@ -91,46 +91,35 @@ client.on("message", message => {
          .setDescription(`**
          ✧▬▬▬▬▬▬ BOT System ▬▬▬▬▬▬✧
          __All Commands__
-         $id ➼ عرض ملفك الشخصي
-         $ask ➼ البوت يسئلك اسئلة
-         $server ➼ احصائيات السيرفر
-         $avatar ➼ عرض صورتك الشخصية
-         $roll ➼ القرعة
+         !id ➼ عرض ملفك الشخصي
+         !ask ➼ البوت يسئلك اسئلة
+         !server ➼ احصائيات السيرفر
+         !avatar ➼ عرض صورتك الشخصية
+         !roll ➼ القرعة
          يعطيك رابط شغال ليوم واحد ➼ رابط
-         $count ➼ كم عضو بالسيرفر
-         $help ➼ عرض هذه الرسالة
-         $cut ➼ للعب لعبة كت تويت 
-         $ping ➼ لمعرفة سرعة استجابة البوت في الوقت الحالي
-         $minc ➼ اسئلة عن ماين كرافت
-         $invite ➼ يقول لك كم واحد انت مدخل
-         $new ➼ لفتح تذكرة
-         $inv ➼ لدعوة البوت الى سيرفرك
-         $support ➼ سيرفر الدعم الفني للبوت
+         !count ➼ كم عضو بالسيرفر
+         !help ➼ عرض هذه الرسالة
+         !cut ➼ للعب لعبة كت تويت 
+         !ping ➼ لمعرفة سرعة استجابة البوت في الوقت الحالي
+         !minc ➼ اسئلة عن ماين كرافت
+         !invite ➼ يقول لك كم واحد انت مدخل
+         !new ➼ لفتح تذكرة
          __Admins Commands__
-         $ban ➼ حظر العضو من السيرفر
-         $kick ➼ طرد العضو من السيرفر
-         $clear ➼ مسح الشات
-         $createroles ➼ عمل رتب متكاملة للسيرفر
-         $clear ➼ ل مسح الشات بعدد محدد
-         $warn ➼ لاعطاء الشخص تحذير
-         $moveall ➼ لسحب جميع الداخلين ب الفويس
-         $voicesetup ➼ تصنع فويس تشانل مكتوب فيها عدد الاونلاين يلي في الفويس 
-         $mute ➼ لاعطاء الشخص ميوت
-         $unmute ➼ لفك الميوت عن الشخص
-         $mc ➼ لقفل الشات
-         $umc ➼ لفتح الشات 
-         $bc ➼ رسالة جماعية
-         $obc ➼ رسالة جماعية فقط للاونلاين
-         $ebc ➼ رسالة جماعية ب امبيد
-         __Music Commands__
-         $play ➼ لتشغيل أغنية برآبط أو بأسم
-         $skip ➼ لتجآوز الأغنية الحآلية
-         $stop ➼ إيقآف الأغنية مؤقتا
-         $resume ➼ لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-         $vol ➼ لتغيير درجة الصوت 100 - 0
-         $leave ➼ لإخرآج البوت من الروم
-         $np ➼ لمعرفة الأغنية المشغلة حآليا
-         $queue ➼ لمعرفة قآئمة التشغيل
+         !ban ➼ حظر العضو من السيرفر
+         !kick ➼ طرد العضو من السيرفر
+         !clear ➼ مسح الشات
+         !createroles ➼ عمل رتب متكاملة للسيرفر
+         !clear ➼ ل مسح الشات بعدد محدد
+         !warn ➼ لاعطاء الشخص تحذير
+         !moveall ➼ لسحب جميع الداخلين ب الفويس
+         !voicesetup ➼ تصنع فويس تشانل مكتوب فيها عدد الاونلاين يلي في الفويس 
+         !mute ➼ لاعطاء الشخص ميوت
+         !unmute ➼ لفك الميوت عن الشخص
+         !mc ➼ لقفل الشات
+         !umc ➼ لفتح الشات 
+         !bc ➼ رسالة جماعية
+         !obc ➼ رسالة جماعية فقط للاونلاين
+         !ebc ➼ رسالة جماعية ب امبيد
          ✧▬▬▬▬▬▬ BOT System ▬▬▬▬▬▬✧
          By ➼ <@388357326614167563>
        **  `)
@@ -148,7 +137,7 @@ client.on('message', message => {
     }
 });
 client.on('message', message => {
-    var prefix = "$"
+    var prefix = "!"
 var args = message.content.split(" ").slice(1);    
 if(message.content.startsWith(prefix + 'id')) {
 var year = message.author.createdAt.getFullYear()
@@ -219,7 +208,7 @@ client.on('message', function(msg) {
   });
  
 client.on('message', message => {
-    if (message.content.startsWith("$avatar")) {
+    if (message.content.startsWith("!avatar")) {
         var mentionned = message.mentions.users.first();
     var x5bzm;
       if(mentionned){
@@ -282,6 +271,17 @@ client.on('message', message => {
     embed : kickembed
   })
 }
+});
+client.on('message', message => {
+  if (message.content === "!support") {
+  let embed = new Discord.RichEmbed()
+.setAuthor(message.author.username)
+.setColor("#9B59B6")
+.addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/p6WKSDq**")
+  
+  
+message.channel.sendEmbed(embed);
+ }
 });
 client.on('message', message => {
   if (message.author.codes) return;
@@ -365,7 +365,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content == "$ask") {
+    if (message.content == "!ask") {
          message.react('🤔','👌')
         var x = ['اين يلعب مصطفي فتحي؟', 'ما هو اسم ملعب بارشالونة', 'ما هو يوم الحج الأكبر؟', 'ما هو أطول أنهار أوربا ؟', 'ما هو اسم بيت الدجاج', 'ما هو أول بنك قام بالنشاط المصرفي في السعودية عام 1926م' , 'ما هو أول جامع أقيم في مصر','ما هو أطول نهر في آسيا','ما هو أقرب كوكب إلى الشمس','ما هو الحيوان الذي يُسمى البهنس','ما هو اول مسجد أسس بالمدينة','متى وقع صلح الحديبية عام 6هـ او 3هـ او 2هـ؟','متى قامت أمريكا بأول رحلة فضائية','متى كانت غزوة خيبر؟','ما هي السورة التي تبدأ بقوله تعالى " يا أيها النبي اتق الله ولا تطع الكافرين والمنافقين إن الله كان عليما حكيما ".اجب؟','ما هي السورة التي يطلق عليها عروس القرآن','ماذا يسمى من لايقرأ ولايكتب','ماهي أول دولة استخدمت طابع البريد','ماهو شعار الولايات المتحدة الامريكية','ماهو اذكي الحيوانات','من هو مكتشف أمريكا','مامعنى "فرعون" اجب؟','ماهو اقرب كوكب إلى الارض','ما هي نسبه المياه من الكره الارضيه?','كم عدد السجدات في القرآن الكريم؟','من هو بطل كاس العالم في عام 1966','أين أفتتح اول متحف في العالم?','ماأسم أنثى الحمار?','كم تبلغ درجه حراره الشمس؟','من هي مدينة الضباب','أين توجد أطول سكة حديد في العالم?'
         ];
@@ -392,7 +392,7 @@ client.on('message', message => {
     }
 })
 client.on('message', message => {
-    if (message.content === "$createroles") {
+    if (message.content === "!createroles") {
     if(!message.channel.guild) return message.channel.send('**This Command Only For Servers !**')
             if (!message.member.hasPermission('MANAGE_ROLES')) return message.channel.send(`**${message.author.username} You Dont Have** ``MANAGE_ROLES`` **Premission**`);
 
@@ -426,7 +426,7 @@ message.channel.sendMessage('**الرجاء الانتظار ريث ما يتم 
 
 client.on('message', message => {
 
-    if (message.content === "$count") {
+    if (message.content === "!count") {
 
     let embed = new Discord.RichEmbed()
 
@@ -440,7 +440,7 @@ client.on('message', message => {
 
 client.on('message', async message =>{
     if (message.author.boss) return;
-      var prefix = "$";
+      var prefix = "!";
   
   if (!message.content.startsWith(prefix)) return;
       let command = message.content.split(" ")[0];
@@ -531,7 +531,7 @@ client.on('message', async message =>{
                ':bookmark:‏كت تويت | بعد ١٠ سنين ايش بتكون ؟',
                ':bookmark:‏كت تويت ‏| مِن أغرب وأجمل الأسماء التي مرت عليك؟',
                ':bookmark:‏كت تويت | عمرك شلت مصيبة عن شخص برغبتك ؟',
-               'كت تويت | أكثر سؤال وجِّه إليك مؤخرًا؟',
+               ':bookmark:‏كت تويت | أكثر سؤال وجِّه إليك مؤخرًا؟',
                ':bookmark:‏كت تويت | ما هو الشيء الذي يجعلك تشعر بالخوف؟',
                ':bookmark:‏كت تويت | وش يفسد الصداقة؟',
                ':bookmark:‏كت تويت | شخص لاترفض له طلبا ؟',
@@ -555,7 +555,7 @@ client.on('message', async message =>{
           ]
            
            client.on('message', message => {
-             if (message.content.startsWith("$cut")) {
+             if (message.content.startsWith("!cut")) {
                           if(!message.channel.guild) return message.reply('** This command only for servers**');
             var embed = new Discord.RichEmbed()
             .setColor('RANDOM')
@@ -569,7 +569,7 @@ client.on('message', async message =>{
 
 
           client.on('message' , message => {
-            var prefix = "$";
+            var prefix = "!";
             if(message.author.bot) return;
             if(message.content.startsWith(prefix + "ping")) {
            message.channel.send('Pong...').then((msg) => {
@@ -600,7 +600,7 @@ message.react("??")
 })
 
 client.on('message', message => {
-   if(message.content.startsWith("$invite")) {
+   if(message.content.startsWith("!invite")) {
     message.guild.fetchInvites().then(invs => {
       let user = message.mentions.users.first() || message.author
       let personalInvites = invs.filter(i => i.inviter.id === user.id);
@@ -871,7 +871,7 @@ message.delete();
 
 
 client.on('message', message => {
-    var prefix = "$";
+    var prefix = "!";
    
         if (message.author.id === client.user.id) return;
         if (message.guild) {
@@ -879,7 +879,7 @@ client.on('message', message => {
         let args = message.content.split(' ').slice(1).join(' ');
     if(message.content.split(' ')[0] == prefix + 'ebc') {
         if (!args[1]) {
-    message.channel.send("$ebc <message>");
+    message.channel.send("!ebc <message>");
     return;
     }
             message.guild.members.forEach(m => {
